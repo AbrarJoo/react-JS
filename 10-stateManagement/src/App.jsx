@@ -16,7 +16,7 @@ const App = () => {
   }
 
   return (
-    <div className="mt-5 min-h-screen flex flex-col items-center gap-6">
+    <div className=" bg-red-400 min-h-screen flex flex-col items-center justify-center gap-6">
       <h1 className="bg-amber-200 w-[526px] max-w-[90vw] h-[550px] flex items-center justify-center text-4xl font-bold rounded-2xl">
         {num}
       </h1>
@@ -36,10 +36,7 @@ const App = () => {
           Decrese
         </button>
 
-        <button
-          onClick={Jump}
-          className="px-10 py-4 bg-gray-300 rounded-full"
-        >
+        <button onClick={Jump} className="px-10 py-4 bg-gray-300 rounded-full">
           Jump by 5
         </button>
       </div>
