@@ -10,7 +10,12 @@ body {
   color: white;
 }
 
-nav {
+h1{
+    font-size: 100px;
+    text-decoration: underline;
+}
+
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,23 +23,28 @@ nav {
   background: #222;
 }
 
-nav h3 {
+
+.nav h3 {
+
   font-size: 24px;
   color: #00d9ff;
+  margin-left: -330%;
 }
 
-nav div {
+.nav div {
   display: flex;
+  align-items: center;
+  margin-left: auto;
   gap: 30px;
 }
 
-nav a {
+.nav a {
   text-decoration: none;
   color: white;
   font-size: 16px;
   transition: 0.3s;
 }
 
-nav a:hover {
+.nav a:hover {
   color: #00d9ff;
 }
